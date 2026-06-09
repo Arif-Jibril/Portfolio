@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arif Jibril - Portfolio Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Arif Jibril</div>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="about-content">
+                <img src="Photo_CV.png" alt="Photo de profil de Arif Jibril" class="profile-photo">
+                
+                <h1>Arif Jibril</h1>
+                <h2>Étudiant en Informatique & Future Data Analyst</h2>
+                <p>Étudiant au Geneva Institute of Technology (GIT), je suis passionné par la gestion des bases de données, l'administration système et l'analyse de données. Mon objectif est de transformer la donnée brute en informations exploitables grâce à SQL et aux outils de Business Intelligence.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="section bg-light">
+            <h2>Mes Projets Data</h2>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="fait">Fait</button>
+                <button class="filter-btn" data-filter="en-cours">En cours</button>
+                <button class="filter-btn" data-filter="envisage">Envisagé</button>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card" data-status="fait">
+                    <h3>Plateforme de gestion de bibliothèque</h3>
+                    <p>Création d'un modèle de données robuste pour une bibliothèque numérique. Normalisation des tables jusqu'en 3NF et visualisation des emprunts via un dashboard Power BI.</p>
+                    <div class="tags">
+                        <span class="tag tag-fait">Fait</span>
+                        <span class="tag tech">SQL</span>
+                        <span class="tag tech">Power BI</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-status="en-cours">
+                    <h3>Base SQL Server connectée</h3>
+                    <p>Développement d'une base de données locale sous SQL Server visant à être interrogée dynamiquement par une interface pour extraire des analyses rapides.</p>
+                    <div class="tags">
+                        <span class="tag tag-en-cours">En cours</span>
+                        <span class="tag tech">SQL Server</span>
+                        <span class="tag tech">Architecture</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-status="envisage">
+                    <h3>Analyse de ventes e-commerce</h3>
+                    <p>Projet de nettoyage et d'exploration d'un dataset de e-commerce. Écriture de requêtes SQL complexes (JOIN, GROUP BY, Window functions) pour identifier les tendances d'achat.</p>
+                    <div class="tags">
+                        <span class="tag tag-envisage">Envisagé</span>
+                        <span class="tag tech">Data Analysis</span>
+                        <span class="tag tech">PostgreSQL</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Intéressé par mon profil ou envie d'échanger sur les bases de données ?</p>
+            <div class="contact-links">
+                <a href="mailto:arif.jibril@bluewin.ch" class="btn">Me contacter par Email</a>
+                <a href="https://github.com/Arif-Jibril" target="_blank" class="btn btn-outline">Mon GitHub</a>
+                <a href="https://www.linkedin.com/in/arif-jibril-6a4695387/" target="_blank" class="btn btn-outline">Mon LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Arif Jibril. Portfolio réalisé en HTML/CSS/JS. <h6>(aidé par Gemini)</h6></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
