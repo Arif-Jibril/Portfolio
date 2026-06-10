@@ -67,6 +67,24 @@ nav {
     color: var(--secondary-color);
 }
 
+/* --- BOUTON TELECHARGER PDF --- */
+.btn-download {
+    background-color: white;
+    color: var(--primary-color);
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background 0.3s, color 0.3s;
+    margin-left: 20px;
+}
+
+.btn-download:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
 /* --- STRUCTURE DES SECTIONS --- */
 .section {
     padding: 60px 20px;
